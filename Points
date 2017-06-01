@@ -1,0 +1,23 @@
+
+Tight Coupling and Loose coupling
+
+Cart and Order
+
+Constructor/Method can be Injected
+
+with XML,Anotations,java config..etc
+
+through ref <- obj(XML Beans)
+
+
+Jars
+Proj Struct
+Dependencies
+xml
+Client Prog (call xml, ObjFac, fac.bean,Typecast)
+
+Java -> JDK(jre,jvm)
+Spring -> IOC container(life cycle of bean obj) 
+
+
+Class will have SBI
