@@ -5,7 +5,7 @@ Cart and Order
 
 Constructor/Method can be Injected
 
-with XML,Anotations,java config..etc
+with XML,Anotations,java config,Spring Boot..etc
 
 through ref <- obj(XML Beans)
 
@@ -21,3 +21,12 @@ Spring -> IOC container(life cycle of bean obj)
 
 
 Class will have SBI
+
+-----------------------------------------------------
+
+Day 2
+------------------------------------------------------
+
+Spring- Lightweight,IOC,AOP
+
+
