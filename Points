@@ -17,7 +17,8 @@ xml
 Client Prog (call xml, ObjFac, fac.bean,Typecast)
 
 Java -> JDK(jre,jvm)
-Spring -> IOC container(life cycle of bean obj) 
+Spring -> IOC container(life cycle of bean obj)
+FileContext,ClassPath,Webaplication
 
 
 Class will have SBI
@@ -29,4 +30,37 @@ Day 2
 
 Spring- Lightweight,IOC,AOP
 
-autowiring
+Constructor inj,Setter Inj with Collections(List,Set,Map)
+List--duplicate------<value>
+
+
+Set-No duplicate------<value>
+ <set>
+ <value>CapG</value>
+ <value>RBC</value>
+ <value>TL</value>
+ 
+ 
+ </set>
+Map- Key value-----<entry>
+<property name="Emp">
+	<map>
+		<entry key="Age" value="30" />
+		
+		
+	</map>
+
+autowiring- to reduce no of xml tags
+
+----------------------------------------------------------
+
+Day 3
+
+----------------------------------------------------------
+MartinFowler.com
+
+
+
+
+
+
