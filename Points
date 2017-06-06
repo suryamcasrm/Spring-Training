@@ -18,7 +18,7 @@ Client Prog (call xml, ObjFac, fac.bean,Typecast)
 
 Java -> JDK(jre,jvm)
 Spring -> IOC container(life cycle of bean obj)
-FileContext,ClassPath,Webaplication
+FilePath,ClassPath,Webaplication
 
 
 Class will have SBI
@@ -58,6 +58,21 @@ Day 3
 
 ----------------------------------------------------------
 MartinFowler.com
+
+Spring boot
+-----------------
+->uses annotations(limited)
+->Reduces maven dependencies
+->uber jar strategy
+->inbuilt server starters
+->reduces no of configs clasess
+
+web way
+----------
+http://start.spring.io/
+
+spring run c://springboot/cli/app.groovy -- --server.port=8090
+
 
 
 
