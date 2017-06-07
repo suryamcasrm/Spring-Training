@@ -3,7 +3,7 @@ Tight Coupling and Loose coupling
 
 Cart and Order
 
-Constructor/Method can be Injected
+Constructor/Method(Setter) can be Injected
 
 with XML,Anotations,java config,Spring Boot..etc
 
@@ -11,9 +11,9 @@ through ref <- obj(XML Beans)
 
 
 Jars
-Proj Struct
-Dependencies
-xml
+Proj Structure
+Def Dependencies(Cons/Setter)
+xml config
 Client Prog (call xml, ObjFac, fac.bean,Typecast)
 
 Java -> JDK(jre,jvm)
@@ -33,21 +33,17 @@ Spring- Lightweight,IOC,AOP
 Constructor inj,Setter Inj with Collections(List,Set,Map)
 List--duplicate------<value>
 
-
 Set-No duplicate------<value>
  <set>
  <value>CapG</value>
  <value>RBC</value>
  <value>TL</value>
- 
- 
  </set>
+
 Map- Key value-----<entry>
 <property name="Emp">
 	<map>
-		<entry key="Age" value="30" />
-		
-		
+<entry key="Age" value="30" />
 	</map>
 
 autowiring- to reduce no of xml tags
@@ -65,7 +61,7 @@ Spring boot
 ->Reduces maven dependencies
 ->uber jar strategy
 ->inbuilt server starters
-->reduces no of configs clasess
+->reduces no of configaration classes
 
 web way
 ----------
