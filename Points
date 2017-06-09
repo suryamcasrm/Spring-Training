@@ -69,6 +69,21 @@ http://start.spring.io/
 
 spring run c://springboot/cli/app.groovy -- --server.port=8090
 
+------------------------------------------------------------------------
+
+Day5
+------------------------------------------------------------
+
+starters...dependecies....spring boot....autoconfiguration
+debug mode--- properties
+Properties....YML...xml
+
+yamllint.com----validate yml code
+
+Profiling
+-----------
+
+@profile({"UAT"})
 
 
 
