@@ -88,6 +88,7 @@ Profiling
 Live Reload-dev tools
 health checkup
 
+POSTMAN
 -----------------------------------------------------
 Day6
 ---------------------------------------------------------
@@ -96,11 +97,31 @@ Spring MVC
 JSP as controller---1.x
 servlet as controller---1.1
 
+http://www.java4s.com/spring-mvc/spring-mvc-execution-flow-diagram-spring-mvc-3-2-flow/
+
 Architecture
 ----------------------------------------------------------------------------------------------------
 Req -> Dispacher Servlet -> Handler Mapping -> Controller -> View Resolver -> ModelandView -> View
 ----------------------------------------------------------------------------------------------------
+beans
+controller(all func should return view)
+configuration(bean:View Resolvers, context:Component-Scan(auto DI),mvc:annotations-driven)
+View(jsp)
+Interceptors
 
+http://spring.io/guides/gs/rest-service/
 
+Web Service
+----------------------
+Inter lang Connectivity
+SOAP---REST
 
+Soap(XML,WSDL,Thin clients)JAX-WS--Inbuilt Security
+
+Rest(Http)JAX-RS-Vendor provided Security
+
+Jersy-Resteasy
+
+URI(/resources/1)
+status codes
 
