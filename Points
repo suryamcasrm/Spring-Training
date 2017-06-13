@@ -88,7 +88,18 @@ Profiling
 Live Reload-dev tools
 health checkup
 
+-----------------------------------------------------
+Day6
+---------------------------------------------------------
+Spring MVC
 
+JSP as controller---1.x
+servlet as controller---1.1
+
+Architecture
+----------------------------------------------------------------------------------------------------
+Req -> Dispacher Servlet -> Handler Mapping -> Controller -> View Resolver -> ModelandView -> View
+----------------------------------------------------------------------------------------------------
 
 
 
