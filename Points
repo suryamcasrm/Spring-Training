@@ -119,9 +119,34 @@ SOAP---REST
 Soap(XML,WSDL,Thin clients)JAX-WS--Inbuilt Security
 
 Rest(Http)JAX-RS-Vendor provided Security
+Every thing is a resource in REST
 
-Jersy-Resteasy
+Jersey-Resteasy
 
 URI(/resources/1)
 status codes
+-------------------------------------------------------------------
+Spring Boot MVC
+-----------------------------------------------------------------
 
+with Java config..no need of xml config
+auto config using java classes
+InternalResourceViewResolver in java class (Configuration file)
+
+Controller file
+
+Spring boot file
+
+application.properties file
+
+---------------------------------------------------
+Rest with Jersey
+----------------------------------------------------
+
+https://jcp.org/en/jsr/detail?id=370
+
+Jersey Front Controller
+Jersy Server Jar dependency
+Web.xml Servlet config
+
+https://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/
