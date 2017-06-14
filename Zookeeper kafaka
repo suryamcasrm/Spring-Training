@@ -1,0 +1,10 @@
+_____________________________________
+zookeeper
+--------------------------------------
+
+extract zoo 3.4.8
+
+create data folder
+open conf/zoo.cfg
+change below
+dataDir=/zookeeper-3.4.8/data
