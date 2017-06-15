@@ -8,3 +8,22 @@ create data folder
 open conf/zoo.cfg
 change below
 dataDir=/zookeeper-3.4.8/data
+Keep both zookeper and kafka same place
+
+start zookeepr
+
+zkServer
+D:\Kafzoo\zookeeper-3.4.8\bin>zkServer
+
+
+start kafka
+D:\Kafzoo\kafka_2.11-0.10.2.1>.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+start consumer
+
+D:\Kafzoo\kafka_2.11-0.10.2.1\bin\windows>kafka-console-consumer.bat --zookeeper localhost:2181 --topic test
+
+
+start prducer
+
+D:\Kafzoo\kafka_2.11-0.10.2.1\bin\windows>kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
