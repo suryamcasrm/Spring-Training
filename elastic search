@@ -6,3 +6,10 @@ curl in powershell
 INdex
 Type
 Document
+POST--body--raw
+http://localhost:9200//books/book/4
+
+Get
+http://localhost:9200//books/book/_search
+http://localhost:9200//books/book/_search?q=_id:4
+http://localhost:9200//books/book/_mapping
