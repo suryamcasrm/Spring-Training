@@ -12,3 +12,5 @@ Start the Eureka server
 Register the Service
 
 Consume the service
+
+http://localhost:8888/accountDetails?number=5115
