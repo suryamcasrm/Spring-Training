@@ -1,0 +1,14 @@
+MicroServices
+-----------------------------------------------------------
+
+Monolithic architecture
+
+http://image.slidesharecdn.com/qimxuf7utroccf4eqc1k-signature-de0d9c06c033a2ece4c8c2782f4e1ee943b46a62eb1691e1c59a8b61d5f92b8d-poli-150918060317-lva1-app6892/95/building-microservices-with-docker-4-638.jpg?cb=1442556241
+
+Rest Ws-> JNDI lookup -> Registration Service(Edureka/UDDI) 
+
+Start the Eureka server
+
+Register the Service
+
+Consume the service
