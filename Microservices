@@ -19,8 +19,8 @@ http protocal
 
 RestAPI
 API gateway
-Authentication
-Service Registry
-Load Balencing
-Centalized Logging
+Authentication-SSL,OATH,1st lvl Auth
+Service Registry-Eureka
+Load Balencing-Kafka,Pivotal Cloud 
+Centalized Logging-Kafka
 2 way commit
