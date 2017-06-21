@@ -22,7 +22,9 @@ API gateway-netflix gw
 Authentication-SSL,OATH,1st lvl Auth
 Service Registry-Eureka,zoo keeper,SCS service Registry(PCF)
 Load Balencing-Kafka,PCF router ,Netflix Ribbon
-Centalized Logging-Kafka,kibana,LogStash
+Centalized Logging-Kafka(kibana),LogStash,AWS cloud watch,Elastic Search
 2 way commit-Transaction Manager
+
+
 
 
