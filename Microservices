@@ -18,9 +18,11 @@ http protocal
 -------------------------
 
 RestAPI
-API gateway-netflix
+API gateway-netflix gw
 Authentication-SSL,OATH,1st lvl Auth
 Service Registry-Eureka,zoo keeper
-Load Balencing-Kafka,Pivotal Cloud ,Ribbon
+Load Balencing-Kafka,Pivotal Cloud ,Netflix Ribbon
 Centalized Logging-Kafka,kibana,LogStash
 2 way commit-Transaction Manager
+
+
